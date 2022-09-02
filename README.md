@@ -1,3 +1,12 @@
+Live Link: https://gencode.netlify.app/
+
+
+![image](https://user-images.githubusercontent.com/49968050/188226578-e485738a-4105-4a84-8423-38f4611ab843.png)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
