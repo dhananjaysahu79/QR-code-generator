@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { saveAs } from "file-saver";
-import {GrDownload} from "react-icons/gr";
+import { GrDownload } from "react-icons/gr";
 
 function App() {
   const qrColors = [
@@ -81,7 +81,7 @@ function App() {
             value={fieldText}
             onChange={handleChange}
             type="text"
-            placeholder="Enter your link"
+            placeholder="Enter your link, text etc.."
           />
         </div>
         <button onClick={handleClick}>Generarte QR</button>
@@ -92,7 +92,7 @@ function App() {
         </div>
 
         <button className="download-button" onClick={downloadImage}>
-          <GrDownload style={{fontSize: '22px'}} />
+          <GrDownload style={{ fontSize: "22px" }} />
           Download JPG file
         </button>
       </div>
