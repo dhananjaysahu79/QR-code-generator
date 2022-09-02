@@ -131,7 +131,11 @@ span {
   background-color: #ff9b05;
   box-shadow: 5px 5px 12px #3c33a4;
   width: 45%;
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 800px) {
@@ -146,9 +150,17 @@ span {
     width: 100%;
   }
 
+  button {
+    margin-bottom: 40px;
+  }
+
   input {
     width: 95%;
     margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .download-button {
+   width: 70%;
   }
 }
 
